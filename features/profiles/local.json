@@ -1,0 +1,7 @@
+{
+    "url_login": "http://localhost:3000/login/",
+    "url_modalidades": "http://localhost:3000/",
+    "url_pessoa_fisica": "http://localhost:3000/",
+    "user": "mail@mmail.com",
+    "password": "123456"
+}
