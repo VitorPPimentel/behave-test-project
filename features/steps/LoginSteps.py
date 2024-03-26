@@ -6,7 +6,7 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import time
 
-@given("que esteja na página de login do Bright")
+@given("que esteja na página de login")
 def step_impl(context):
     context.browser.get(context.variables["url_login"])
 
