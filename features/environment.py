@@ -26,7 +26,7 @@ def before_scenario(context, scenario):
     # coloca o navegador em tela cheia
     context.browser.maximize_window()
     # Define o implicity wait para o cenário
-    context.browser.implicitly_wait(context.config.userdata["implicity_wait"])
+    # context.browser.implicitly_wait(context.config.userdata["implicity_wait"])
 
     #################################### Leitura dos profiles ####################################
 
